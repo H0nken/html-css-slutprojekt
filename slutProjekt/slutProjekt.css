@@ -1,0 +1,367 @@
+.main-container {
+  display: grid;
+  grid-template-areas:
+    "nav nav nav"
+    "nyhet main main"
+    "ft ft ft";
+
+  grid-template-columns: 22% auto;
+  grid-template-rows: 10% auto 20%;
+
+  height: 730px;
+}
+
+.second-container {
+  display: grid;
+  grid-template-areas:
+    "nav nav nav"
+    "main main main"
+    "ft ft ft";
+
+  grid-template-columns: 22% auto;
+  grid-template-rows: 10% auto 20%;
+  height: 730px;
+}
+
+header,
+aside,
+article,
+footer {
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid black;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  grid-area: nav;
+  text-transform: uppercase;
+  font-size: 20px;
+
+  text-align: center;
+  padding: 16px;
+
+  background-color: #333;
+}
+
+.link:hover {
+  color: whitesmoke;
+  background-color: pink;
+}
+.link {
+  color: whitesmoke;
+}
+
+aside {
+  font-weight: bold;
+  grid-area: nyhet;
+  display: flex;
+  flex-direction: column;
+  background-color: #333;
+}
+.circleplane-link {
+  color: black;
+}
+
+article {
+  grid-area: main;
+  background-image: url("prickig.jpg");
+  background-size: auto;
+}
+
+footer {
+  grid-area: ft;
+  display: flex;
+  flex-direction: row;
+  background-color: #333;
+}
+
+.tele,
+.social {
+  width: 50%;
+  background-color: pink;
+
+  text-align: center;
+  text-decoration: none;
+
+  margin: 2px;
+  border: 1px solid black;
+}
+.social {
+  padding: 5px;
+  font-size: 45px;
+}
+
+.tele {
+  font-size: 20px;
+  padding: 3px;
+  color: whitesmoke;
+}
+
+.fa {
+  padding: 30px;
+  color: whitesmoke;
+}
+
+.index-article {
+  background-image: url("index3.jpg");
+
+  background-repeat: no-repeat;
+  background-size: 100%;
+  font-size: 20px;
+  background-color: #333;
+  font-weight: bold;
+  margin: 3px;
+  margin-top: 5px;
+}
+.index-text {
+  margin-top: 2px;
+  margin: 3px;
+  font-size: 19px;
+  color: goldenrod;
+}
+
+.news-1 {
+  width: 85%;
+  height: 115px;
+  margin: 5px;
+  padding: 5px;
+  grid-area: nyhet;
+
+  background-color: pink;
+}
+
+.news-2 {
+  width: 85%;
+  height: 115px;
+  margin: 5px;
+  padding: 5px;
+  grid-area: nyhet;
+
+  background-color: pink;
+}
+
+.news-3 {
+  width: 85%;
+  height: 150px;
+  margin: 5px;
+  padding: 5px;
+  grid-area: nyhet;
+
+  background-color: pink;
+}
+
+.galleri-container {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+}
+.galleri-text {
+  font-weight: bold;
+  font-size: 19px;
+  margin: 3px;
+  margin-top: 2px;
+}
+.bild-1 img {
+  width: 100%;
+}
+.bild-2 img {
+  width: 100%;
+}
+.bild-3 img {
+  width: 100%;
+}
+.bild-4 img {
+  width: 100%;
+}
+.bild-1 {
+  width: 25%;
+  height: 40%;
+  margin: 5px;
+  padding: 5px;
+  border: 3px solid black;
+  background-color: goldenrod;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.bild-2 {
+  width: 25%;
+  height: 40%;
+  margin: 5px;
+  padding: 5px;
+  border: 3px solid black;
+  background-color: goldenrod;
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.bild-3 {
+  width: 25%;
+  height: 40%;
+  margin: 5px;
+  padding: 5px;
+  border: 3px solid black;
+  background-color: goldenrod;
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.bild-4 {
+  width: 25%;
+  height: 40%;
+  margin: 5px;
+  padding: 5px;
+  border: 3px solid black;
+  background-color: goldenrod;
+
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.week-pic {
+  margin-left: 25%;
+  margin-top: 2%;
+  width: 60%;
+  height: 80%;
+  background-image: url("week2.jpg");
+  background-size: 100%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+}
+
+.week-text {
+  color: goldenrod;
+  font-size: 20px;
+  padding-top: 7px;
+  margin: 7px;
+}
+
+.button {
+  position: relative;
+  left: 65px;
+  font: bold 17px Arial;
+  text-decoration: none;
+  background-color: #eeeeee;
+  color: #333333;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #cccccc;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #cccccc;
+}
+.submit-text {
+  border: 5px solid goldenrod;
+  padding: 5%;
+  margin-left: 27%;
+  margin-top: 3%;
+  background-color: pink;
+  width: 40%;
+  height: 50%;
+}
+.input-text {
+  font-size: 20px;
+  font-weight: bold;
+}
+.code-input {
+  position: relative;
+  right: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+  .main-container {
+    display: grid;
+    grid-template-areas:
+      "nav nav nav"
+      "nyhet main main"
+      "ft ft ft";
+
+    grid-template-columns: 45% auto;
+    grid-template-rows: 13% auto 30%;
+    height: 650px;
+  }
+  .galleri-container {
+    flex-direction: row;
+    background-image: 100%;
+  }
+  .bild-text {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 3px;
+    margin-top: 2px;
+  }
+  .galleri-text {
+    font-weight: bold;
+    font-size: 15px;
+    margin: 3px;
+    margin-top: 2px;
+  }
+  .social {
+    padding: 5px;
+    font-size: 50px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    header {
+      flex-direction: column;
+    }
+    .galleri-container {
+      flex-direction: row;
+    }
+    .main-container {
+      display: grid;
+      grid-template-areas:
+        "nav nav nav"
+        "nyhet main main"
+        "ft ft ft";
+
+      grid-template-columns: 40% auto;
+      grid-template-rows: 20% auto 30%;
+      height: auto;
+    }
+
+    .second-container {
+      display: grid;
+      grid-template-areas:
+        "nav nav nav"
+        "main main main"
+        "ft ft ft";
+
+      grid-template-columns: 20% auto;
+      grid-template-rows: 20% auto 30%;
+      height: 650px;
+    }
+    .index-article {
+      display: flex;
+      flex-direction: row;
+    }
+    .week-pic {
+      margin-left: 25%;
+      margin-top: 3%;
+      width: 70%;
+      height: 70%;
+      background-image: url("week2.jpg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+    .social {
+      padding: 5px;
+      font-size: 50px;
+    }
+    .galleri-container {
+      padding: 5px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      background-repeat: no-repeat;
+    }
+  }
+}

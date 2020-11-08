@@ -1,0 +1,40 @@
+
+Responsiv webbdesign innbär i stora drag att webbsidans innehåll anpassar sig och
+ändras beroende på vilken skärmstorlek sidan visas på. 
+T.ex att det inte lämnas stora toma ytor på sidan eller att navigationsbaren högst upp
+förändras till en sk hamburgermeny när skärmen är mindre. 
+
+Källa:
+https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design
+
+
+On site SEO är de åtgärder utvecklaren kan utföra i koden för att öka chansen att stiga bland 
+sökresultaten på sökmotorer som exempelvis google. Att organisera koden och sidans
+conten på ett sådant sett att sökmotorns spindlar lätt kan navigera igenom och förstå
+din kod och dina länkar. Men det är också viktigt att göra research på vad användare
+letar efter och att implementera de i ditt content. 
+
+
+Off site SEO är de olika yttre aspekter som kan öka webbsidans chans att komma 
+högt upp bland sökresultaten. Här handlar det om att öka webbplatsens
+traffik igenom att bl.a ha delbart content som är underhållande inspirerande och intressant.
+Eller igenom att gästblogga, få olika influencers att nämna din site eller att själv
+vara aktiv i sociala medier, podcasts osv.
+
+Källa:
+https://www.reliablesoft.net/what-is-the-difference-between-onsite-and-offsite-seo/
+ 
+
+De åtgärder som jag gjort för att optimera min SEO är:
+*Använt mig av fler h-taggar.
+*Gjort beskrivande alt-text till mina bilder i galleriet.
+*Gjort en description och en keywords-metatagg med relevant content.
+*Jag har gjort research på topsidor med samma tema, men eftersom att
+pappersflygplan inte är en så hett så har min sida (om den varit på allvar) 
+stor chans att hamna högt upp i sökningen. Ingen av de topsidor jag besökte 
+hade keywords. 
+*I min research såg jag att "circle airplan" och "how to make a paper circleplan" 
+var något som det sökts mycket på. Så jag bytte ut en av mina nyheter 
+till en nyhet om hur man gör ett sådant flygplan med en länk till en youtube-video
+där en kille gör just detta.  
+
